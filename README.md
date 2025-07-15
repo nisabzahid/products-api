@@ -1,4 +1,4 @@
-# 🧾 Product API Server with Swagger Documentation
+# Product API Server with Swagger Documentation
 
 A simple RESTful API server built using **Express.js**, supporting basic CRUD operations on `products`, and featuring interactive API documentation via **Swagger UI**.
 
@@ -62,7 +62,7 @@ You’ll see interactive Swagger UI for testing all your API endpoints.
 
 ---
 
-## 📡 API Endpoints
+##  API Endpoints
 
 | Method | Endpoint             | Description                      |
 |--------|----------------------|----------------------------------|
