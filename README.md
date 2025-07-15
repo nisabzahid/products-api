@@ -1,9 +1,11 @@
 # products-api
 API Server with Swagger Documentation
 
-A simple RESTful API server built using Express.js, supporting basic CRUD operations on products, and featuring interactive API documentation via Swagger UI.
+A simple RESTful API server built using Express.js,
+supporting basic CRUD operations on products, 
+and featuring interactive API documentation via Swagger UI.
 
-Project Structure
+**Project Structure**
 
 /project-root
 │
@@ -16,23 +18,22 @@ Node.js ≥ 16.9.0 (Recommended: latest LTS like v18 or v20)
 
 npm (Node package manager)
  
-How to Run
+**How to Run**
 Install dependencies
 
 In project root:
 
 npm install express swagger-ui-express
-Ensure swagger.json exists
+'Ensure swagger.json exists
 
 You must have a swagger.json file in the root folder. Use a valid Swagger 2.0 (OpenAPI 2.0) format. Example below.
-
-Start the server
+**Start the server**
 
 node index.js
 Server will run at:
 http://localhost:8080
 
-Access Swagger API Docs
+**Access Swagger API Docs**
 After the server is running, open:
 
 http://localhost:8080/api-docs
@@ -40,7 +41,7 @@ You’ll see interactive Swagger UI for testing all your API endpoints.
 
 
 
-API Endpoints
+**API Endpoints**
 Method	Endpoint	Description
 GET	/api/products	List all products (with optional filters)
 GET	/api/products/:id	Get a specific product by ID
@@ -48,7 +49,7 @@ POST	/api/products	Create a new product
 PUT	/api/products/:id	Update an existing product
 DELETE	/api/products/:id	Delete a product by ID
 
-swagger.json Example
+**swagger.json Example**
 Here’s a basic example of a working swagger.json file:
 
 {
