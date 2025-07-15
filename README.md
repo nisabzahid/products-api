@@ -74,7 +74,7 @@ You’ll see interactive Swagger UI for testing all your API endpoints.
 
 ---
 
-## 📝 `swagger.json` Example
+## `swagger.json` Example
 
 ```json
 {
@@ -139,14 +139,11 @@ You’ll see interactive Swagger UI for testing all your API endpoints.
 
 ---
 
-## ✅ Tips
+## Tips
 
 - Make sure `swagger.json` is **valid JSON** and fully written.
-- You can use [Swagger Editor](https://editor.swagger.io/) to validate your Swagger file.
 
----
-
-## 🧑‍💻 Author
+##  Author
 
 **Nisab Bin Zahid**
 
