@@ -4,7 +4,7 @@ A simple RESTful API server built using **Express.js**, supporting basic CRUD op
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 /project-root
@@ -17,14 +17,14 @@ A simple RESTful API server built using **Express.js**, supporting basic CRUD op
 
 ---
 
-## 📦 Prerequisites
+##  Prerequisites
 
 - Node.js ≥ 16.9.0 (Recommended: latest LTS like v18 or v20)
 - npm (Node package manager)
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 1. **Install dependencies**
 
@@ -50,7 +50,7 @@ A simple RESTful API server built using **Express.js**, supporting basic CRUD op
 
 ---
 
-## 📘 Access Swagger API Docs
+##  Access Swagger API Docs
 
 After the server is running, open:
 
@@ -143,16 +143,11 @@ You’ll see interactive Swagger UI for testing all your API endpoints.
 
 - Make sure `swagger.json` is **valid JSON** and fully written.
 - You can use [Swagger Editor](https://editor.swagger.io/) to validate your Swagger file.
-- For production use, consider switching to **OpenAPI 3.0** and tools like **Redoc** or **SwaggerHub**.
 
 ---
 
 ## 🧑‍💻 Author
 
-**Your Name Here**
+**Nisab Bin Zahid**
 
 ---
-
-## 📜 License
-
-MIT (or your chosen license)
