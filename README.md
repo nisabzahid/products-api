@@ -138,7 +138,57 @@ You’ll see interactive Swagger UI for testing all your API endpoints.
 ```
 
 ---
+##  Sample `curl` Requests
 
+###  1. Get all products
+
+```bash
+curl -X GET http://localhost:8080/api/products
+```
+
+---
+
+###  2. Get products by filter (e.g., category = toy car)
+
+```bash
+curl -X GET "http://localhost:8080/api/products?category=toy%20car"
+```
+
+---
+
+###  3. Get product by ID
+
+```bash
+curl -X GET http://localhost:8080/api/products/1
+```
+
+---
+
+###  4. Create a new product
+
+```bash
+curl -X POST http://localhost:8080/api/products \
+  -H "Content-Type: application/json" \
+  -d '{"name": "Teddy Bear", "category": "stuffed toy"}'
+```
+
+---
+
+### ♻ 5. Update a product (PUT)
+
+```bash
+curl -X PUT http://localhost:8080/api/products/1 \
+  -H "Content-Type: application/json" \
+  -d '{"name": "Updated Doll", "category": "plush"}'
+```
+
+---
+
+###  6. Delete a product by ID
+
+```bash
+curl -X DELETE http://localhost:8080/api/products/1
+```
 ## Tips
 
 - Make sure `swagger.json` is **valid JSON** and fully written.
